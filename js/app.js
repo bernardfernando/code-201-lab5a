@@ -8,8 +8,12 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a, b) { //eslint-disable-line
-
+function sum(a, b) { 
+let a = prompt("input a number");
+  let b = prompt("input another number)";
+  let answer = a + b;
+  console.log(answer);
+  alert("Sum of your two numbers" + a + b + " = " + answer);
 }
 
 // Here is the test for sum(); uncomment it to run it
